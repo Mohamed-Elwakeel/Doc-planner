@@ -1,33 +1,40 @@
 /* CSS global reset */
 
 body{
-    /* margin: 0; */
-    /* padding: 0; */
+    margin: 0;
+    padding: 0;
     background-color: white;
 }
 
 .head1{
-    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    align-items: center;
     position: fixed;
     width: 100%;
-    padding-top: 0%;
+    padding: 0%;
 }
 
-
+.font-awesome{
+    zoom: 2;
+}
 
 .head{
-    display: block;
+    display: inline-block;
     padding-left: 15%;
     color: #00b39b;
 }
 
 .navbar{
     display: block;
-    font-size: 25px;
-    padding-right: 50px;
-    text-align: right;
+    font-size: 21px;
+    padding-right: 70px;    
 }
 
+a:hover{
+    color: #00b39b;
+}
 .healthcare{
     display: grid;
     padding-top: 180px;
